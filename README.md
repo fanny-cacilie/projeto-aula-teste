@@ -3,9 +3,9 @@
   <li>
     <h3>Sobre esse projeto</h3>
 
-    Aplicação Web desenvolvida para Avaliação Prática de Aula Teste para a vaga Especialista de Ensino II - Docência em Desenvolvimento de Sistemas - SENAI/SC, São José.
+    Aplicação Web desenvolvida para Avaliação Prática de Aula Teste para a vaga Especialista de Ensino II - Docência em Desenvolvimento de Sistemas - SENAI/SC, São José, elaborado por: Fanny Cacilie Gauna de Siqueira
 
-    Projeto elaborado por: Fanny Cacilie Gauna de Siqueira
+    Trata-se de um sistema fullstack (back-end, front-end e banco de dados) para criar, editar e excluir dados de Clientes.
   </li>
   <br>
   
