@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -14,6 +15,11 @@ export default function Home() {
         setClients(result.data)
     }
 
+    const deleteClient = async (id) => {
+      await axios.delete(`http://localhost:8080/client/${id}`);
+      loadClients();
+    };
+
   return (
     <div className="container">
       <div className="client-table">
@@ -24,7 +30,7 @@ export default function Home() {
               <th scope="col">Nome</th>
               <th scope="col">E-mail</th>
               <th scope="col">Telefone</th>
-              <th scope="col">Modificar</th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
@@ -37,15 +43,24 @@ export default function Home() {
                 <td>{client.email}</td>
                 <td>{client.phone}</td>   
                 <td>
-                    <button className="btn btn-primary mx-2">
-                        Visualizar
-                    </button>
-                    <button className="btn btn-outline-primary mx-2">
-                        Editar
-                    </button>
-                    <button className="btn btn-danger mx-2">
-                        Deletar
-                    </button>
+                <Link
+                    className="btn btn-primary mx-2"
+                    to={`/viewClient/${client.id}`}
+                  >
+                    Visualizar
+                  </Link>
+                  <Link
+                    className="btn btn-success mx-2"
+                    to={`/editClient/${client.id}`}
+                  >
+                    Editar
+                  </Link>
+                  <button
+                    className="btn btn-danger mx-2"
+                    onClick={() => deleteClient(client.id)}
+                  >
+                    Deletar
+                  </button>
                 </td>              
               </tr>
             ))}
