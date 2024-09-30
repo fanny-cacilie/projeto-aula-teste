@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+<h2>Projeto Aula Teste</h2>
+<ul>  
+  <li>
+    <h3>Sobre esse projeto</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Aplicação Web desenvolvida para Avaliação Prática de Aula Teste para a vaga Especialista de Ensino II - Docência em Desenvolvimento de Sistemas - SENAI/SC, São José.
 
-## Available Scripts
+    Projeto elaborado por: Fanny Cacilie Gauna de Siqueira
+  </li>
+  <br>
+  
+  <li>
+  <h3> Tecnologias </h3>
+  O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-In the project directory, you can run:
+  <ul>
+    <li><a href="https://spring.io/projects/spring-boot">Spring Boot</a></li>
+    <li><a href="https://pt-br.reactjs.org/">React</a></li>
+    <li><a href="https://www.mysql.com/">MySQL</a></li>
+    <li><a href="https://www.jetbrains.com/pt-br/idea/">IntelliJ</a></li>
+    <li><a href="https://code.visualstudio.com/">VS Code</a></li>  
+  </ul>
+  </li>  
+  <br>
+  
+ 
+  <li>
+    <h3>Como rodar o projeto</h3> 
+    <ol>
+      <h3>Back-End com Spring Boot</h3> 
+      <li> Primeiramente certifique-se que o <b>java</b> esta instalado em seu computador;</li><br>
+      <li> 
+        Para verificar, rode o seguinte comando no terminal:<br><br>
+                
+        $ java --version
+   </li>   
+       <li> Em seguida, abra a interface de desenvolvimento de sua preferência e abra o arquivo "/backend/src/main/java/com fannycacilie/aulateste/AulatesteApplication.java";</li><br>
+       <li> Rode o arquivo <b>AulatesteApplication.java</b> para inicializar o sistema back-end;</li><br>
+       <li> O sistema backend será executado na URL: http://localhost:8080</li><br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   </ol>
+   <ol>
+      <h3>Front-End com React</h3> 
+      <li> Primeiramente certifique-se que o <b>npm</b> esta instalado em seu computador;</li><br>
+      <li> 
+        Para verificar, rode o seguinte comando no terminal:<br><br>
+                
+        $ npm --version
+   </li>   
+       <li> Em seguida, abra a interface de desenvolvimento de sua preferência no diretório "/frontend/";</li><br>
+      <li> 
+        Para executar a aplicação, rode o seguinte comando no terminal:<br><br>
+                
+        $ npm start
+   </li>  
+   <li> Automaticamente o browser irá abrir na URL: http://localhost:3000 apresentando a interface e conexão com back-end e banco de dados.</li><br>
+   </ol>
+  </li> 
+  <br>
+</ul>
